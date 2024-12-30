@@ -1,0 +1,41 @@
+
+.fraud-alert {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    background-color: #ffecec;
+    color: #b32b2b;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    padding: 10px 15px;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    z-index: 9999;
+  }
+  
+  .fraud-alert p {
+    margin: 5px 0;
+  }
+  
+  .fraud-detected {
+    color: #e63946;
+    font-weight: bold;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: none;
+    border: none;
+    color: #b32b2b;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close-btn:hover {
+    color: #e63946;
+  }
