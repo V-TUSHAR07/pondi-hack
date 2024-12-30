@@ -44,7 +44,7 @@
         <nav class="navbar" data-navbar>
           <ul class="navbar-list">
             <li class="navbar-item">
-              <a href="#" class="navbar-link " data-nav-link>Homepage</a>
+              <a href="#" class="navbar-link" data-nav-link>Homepage</a>
             </li>
 
             <li class="navbar-item">
@@ -67,7 +67,7 @@
           <span class="line line-3"></span>
         </button>
         <p id="walletAddress"></p>
-        <a href = "http://127.0.0.1:8000/user-input/">PREDICT</a>
+        <a href="http://127.0.0.1:8000/user-input/">PREDICT</a>
         <a href="#" class="btn btn-outline" id="connectWallet">Wallet</a>
 
         <script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
@@ -110,18 +110,23 @@
     <main>
       <div class="fraud-alert" id="fraudAlertBox">
         <strong>Fraud Alert:</strong>
-        <p><strong>Transaction ID:</strong> 0x7b7a70218e62977aa7c5782743ae140956f56f60dae2...</p>
-        <p><strong>Status:</strong> <span class="fraud-detected">Fraud Detected!</span></p>
+        <p>
+          <strong>Transaction ID:</strong>
+          0x7b7a70218e62977aa7c5782743ae140956f56f60dae2...
+        </p>
+        <p>
+          <strong>Status:</strong>
+          <span class="fraud-detected">Fraud Detected!</span>
+        </p>
         <button class="close-btn" onclick="closeFraudAlert()">×</button>
       </div>
-    
+
       <script>
         function closeFraudAlert() {
-          const fraudAlertBox = document.getElementById('fraudAlertBox');
-          fraudAlertBox.style.display = 'none';
+          const fraudAlertBox = document.getElementById("fraudAlertBox");
+          fraudAlertBox.style.display = "none";
         }
       </script>
-    
 
       <article>
         <!-- 
@@ -131,9 +136,7 @@
         <section class="section hero" aria-label="hero" data-section>
           <div class="container">
             <div class="hero-content">
-              <h1 class="h1 hero-title">
-                Buy Digital Assets In The Cryptex
-              </h1>
+              <h1 class="h1 hero-title">Buy Digital Assets In The Cryptex</h1>
 
               <p class="hero-text">
                 Coin Cryptex is the easiest, safest, and fastest way to buy &
@@ -199,7 +202,7 @@
                   <button class="tab-btn">Makersplace</button>
                 </li>
               </ul>
-    
+
               <ul class="tab-content">
                 <li>
                   <div class="trend-card">
@@ -318,7 +321,12 @@
         <!-- 
         - #MARKET
       -->
-        <section class="section market" id="market" aria-label="market update" data-section>
+        <section
+          class="section market"
+          id="market"
+          aria-label="market update"
+          data-section
+        >
           <div class="container">
             <div class="title-wrapper">
               <h2 class="h2 section-title">Market Update</h2>
@@ -813,11 +821,11 @@
 
                   <p class="card-subtitle">Step 3</p>
 
-                  <h3 class="h3 card-title">Start Trading</h3>
+                  <h3 class="h3 card-title">Sell Your Assets</h3>
 
                   <p class="card-text">
-                    Stacks Is A Production-Ready Library Of Stackable Content
-                    Blocks Built In React Native.
+                    Sell your Assets at optimised price predicted by our ML
+                    model
                   </p>
                 </div>
               </li>
